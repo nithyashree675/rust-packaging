@@ -1,0 +1,10 @@
+[package]
+name = "pollution"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+climate_crisis = { path = "../climate_crisis" }
+# climate_crisis = { version = "0.1.0", registry = "XXXregistry" }
